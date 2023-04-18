@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Medicine Glossary</title>
+    <!-- stylesheet links -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="practice.css">
+    <!-- javascript links -->
+    <script type="text/javascript" src="practice.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <!-- icon -->
+    <link rel="shortcut icon" href="../assets/images/grapics/home-page/logo-for-icon.svg">
+</head>
+<body>
+    <!-- loader -->
+    <div class="loader">
+        <img src="../assets/images/grapics/home-page/center and mask.gif" alt="Loading..." />
+        Loading...
+    </div>
+    <!-- opening -->
+    <div class="homePage">
+        <div class="header">
+            <img class="wave blue" src="../assets/images/grapics/home-page/opening-wave.svg" alt="wave">
+            <div class="titleConeiner"><span class="title">Medicine Glossary</span></div>
+            <img class="topButton searchButton blue" src="../assets/images/grapics/home-page/search-button.svg" alt="searchButton">
+            <img class="aboutButton" src="../assets/images/grapics/about/about-symbol.svg" alt="about-button">
+        </div>
+        <div class="mainDiv">
+            <!-- search -->
+            <div class="searchScren"></div>
+            <img class="searchBoxHolder blue hidden" src="../assets/images/grapics/home-page/search-box.svg" alt="about-button">
+            <input android:windowSoftInputMode="stateVisible" class="searchBox hidden" placeholder="Search a medicine" name="name" lang="en-US" type="text" />
+            <div class="dropDown"></div>
+            <!-- about -->
+            <div class="aboutPage hidden">
+                <div class="aboutHeadline">about</div>
+                <div class="sub-titles"> Head of ATD</div>
+                <div> Major Meigal Livyatan</div>
+                <div class="sub-titles">Head of "Innovation in learning" department</div>
+                <div>Staff Sergeant Gal Gennesin</div>
+                <div class="sub-titles">Development</div>
+                <div>Corporal Nitzan Salomon</div>
+                <div class="sub-titles">Design</div>
+                <div>Corporal Lotem Gross</div>
+                <div class="sub-titles">Content Experts</div>
+                <div>First Leiutenant Shira Bodek, Second Leiutenant Yedidya Samson, Sergeant Nitzan Netanel</div>
+                <div class="sub-titles">Version</div>
+                <div>November 2021 </div>
+                <div class="logos">
+                    <img src="../assets/images/grapics/about/mador-till.svg"/>
+                    <img src="../assets/images/grapics/about/bhd10.svg"/>
+                </div>
+            </div>
+            <!-- home-page-button -->
+            <div class="homePageButtons">
+                <div class="homePageButtonsScroll">
+                    <div class="mainPageButton antiallergic"><img class="mainPagePic" src="../assets/images/grapics/home-page/antiallergic-button.svg"><span class="medHeadline">Anti-allergics and immune system suppressors</span></div>
+                    <div class="mainPageButton antibiotics"><div class="medHeadline">Antibiotics</div><img class="mainPagePic picLeft" src="../assets/images/grapics/home-page/antibiotics-button.svg"></div>
+                    <div class="mainPageButton breathing"><img class="mainPagePic" src="../assets/images/grapics/home-page/breathing-symbol.svg"><div class="medHeadline">Breathing</div></div>
+                    <div class="mainPageButton chronicDiseases"><div class="medHeadline">Chronic diseases</div><img class="mainPagePic picLeft" src="../assets/images/grapics/home-page/chronic-diseases-button.svg"></div>
+                    <div class="mainPageButton digestion"><img class="mainPagePic" src="../assets/images/grapics/home-page/digestion-button.svg"><div class="medHeadline">Digestion</div></div>
+                    <div class="mainPageButton painkillers"><div class="medHeadline"> Painkillers </div><img class="mainPagePic picLeft" src="../assets/images/grapics/home-page/painkillers-button.svg"></div>
+                    <div class="mainPageButton otherMeds"><img class="mainPagePic" src="../assets/images/grapics/home-page/other-meds-button.svg"><div class="medHeadline"> Other medicines</div></div>
+                </div>
+                <img class="testButton buttons" src="../assets/images/grapics/med-shelfs/test-button.svg">
+            </div>
+            <!-- med shelfs -->
+            <div class="medShelfs">
+                <!-- משככי כאבים -->
+                <div class="painkillersShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/painkillers-button.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            General pain relief
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div>Pain relief, sometimes by an unknown mechanism<br>
+                            As a rule, these are drugs that also lower the body temperature.                            
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Paracetamol">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/acamol.png"> 
+                                Paracetamol
+                            </div>
+                            <div class="shelfMedPicContainer Dipyrone">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/optalgin.png"> 
+                                Dipyrone
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 2 -->
+                    <div class="shelfs shelf2">
+                        <div class="shelfHedline">
+                            Pain relief + Anti-inflammatory effect 
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf2dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div>Inhibiting the formation of substances associated with various inflammation symptoms such as
+                            Pain, swelling/edema, redness and fever<br>
+                            As a rule, these are drugs that also lower the body temperature.                                                        
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Iburofen">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/ibuprofen-ibufen.png"> 
+                                Iburofen
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 3 -->
+                    <div class="shelfs shelf3">
+                        <div class="shelfHedline">
+                           Pain relief + Muscle relaxation  
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf3dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div>Muscle contraction - may cause pain or increase pain.<br>
+                            A muscle relaxant relieves pain of muscular origin.                                                                   
+                        </div>
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Paracetamol-Orphenadrine">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/muscol.png"> 
+                                Paracetamol Orphenadrine
+                            </div>
+                            <div class="shelfMedPicContainer Radian-B-Tiger-Balm-Deep-Heat">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/radian-b.png"> 
+                                Radian B Tiger Balm Deep Heat
+                            </div>
+                            <div class="shelfMedPicContainer Phenazopyridine">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/sedural.png"> 
+                                Phenazopyridine
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 4 -->
+                    <div class="shelfs shelf4">
+                        <div class="shelfHedline">
+                            Other pain relief  
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf4dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Benzocaine-Thyrotrycine">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/strepsils.png"> 
+                                Benzocaine Thyrotrycine
+                            </div>
+                            <div class="shelfMedPicContainer Bismuth-Subsalicylate">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/kalbeten.png"> 
+                                Bismuth Subsalicylate
+                            </div>
+                            <div class="shelfMedPicContainer Tetracaine-Phenazone">
+                                <img class="shelfMedPic" src="../assets/images/painkillers/otidin.png"> 
+                                Tetracaine Phenazone
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- אלרגיה -->
+                <div class="antiallergicShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/antiallergic-button.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            Antihistamines - anti-allergy
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action</div>
+                        <div><span class="bold"> What is Histamine?</span><br>
+                            A substance that is secreted after identifying an allergen and triggers an allergic immune response like
+                            Increased secretion in the mucous membranes, dilation of blood vessels (redness and edema), constriction of bronchi, etc.<br>
+                            <span class="bold"> What are Antihistamines?</span><br>
+                            Medicines that block the receptors for histamine and therefore inhibit its activity (inhibit and suppress allergy symptoms).                                                  
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Loratadine-Desloratadine">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/aerius.png"> 
+                                Loratadine, Desloratadine
+                            </div>
+                            <div class="shelfMedPicContainer Azelastine">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/optilast.png"> 
+                                Azelastine (Sol.)
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 2 -->
+                    <div class="shelfs shelf2">
+                        <div class="shelfHedline">
+                            Steroids - immune response suppressors
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf2dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div><span class="bold">What are Steroids?</span><br>
+                            Hormones that are secreted from the adrenal gland and play many roles in the body such as: blood pressure balance, sugar level balance and more..<br>
+                            In addition, steroids suppress the activity of the immune system.<br>
+                            <span class="bold">In what situations are steroid drugs given?</span>
+                            Allergic reactions, inflammatory diseases, hormonal deficiencies and more...                                                                                    
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Predisone">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/predninsone.png"> 
+                                Predisone
+                            </div>
+                            <div class="shelfMedPicContainer Fluticasone-nasal">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/flixonase.png"> 
+                                Fluticasone (Nasal)
+                            </div>
+                            <div class="shelfMedPicContainer Betamethasone-משחה">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/betacorten.png"> 
+                                (ointment) Betamethasone 0.1%
+                            </div>
+                            <div class="shelfMedPicContainer Oxymetazoline-nasal">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/otrivine.png"> 
+                                Oxymetazoline (Nasal)
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 3 -->
+                    <div class="shelfs shelf3">
+                        <div class="shelfHedline">
+                            Other  
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf3dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Pseudoephedrine">
+                                <img class="shelfMedPic" src="../assets/images/antiallergic/sinufed.png"> 
+                                Pseudoephedrine
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- אנטיביוטיקה -->
+                <div class="antibioticsShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/antibiotics-button.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            Antibiotics in General
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action</div>
+                        <div>Damage to the bacterial cell wall (or in the process of building/repairing the wall),<br>
+                            damage to the process of building proteins inside the bacteria.<br>
+                            Damage to the DNA of the bacteria.                                                                              
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Penicillins">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/moxypen.png"> 
+                                Penicillins
+                            </div>
+                            <div class="shelfMedPicContainer Cephalosporines">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/zinnat.png"> 
+                                Cephalosporines
+                            </div>
+                            <div class="shelfMedPicContainer Macrolides">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/klaridex.png"> 
+                                Macrolides
+                            </div>
+                            <div class="shelfMedPicContainer Fluoroquinolones">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/ofloxacin.png"> 
+                                Fluoroquinolones
+                            </div>
+                            <div class="shelfMedPicContainer Tetracyclines">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/minocycline.png"> 
+                                Tetracyclines
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 2 -->
+                    <div class="shelfs shelf2">
+                        <div class="shelfHedline">
+                            Antiviral drugs 
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf2dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Acyclovir">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/zovirax.png"> 
+                                Acyclovir (TAB\CRM)
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 3 -->
+                    <div class="shelfs shelf3">
+                        <div class="shelfHedline">
+                            Antifungal drugs 
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf3dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Clotrimazole-VAG-CRM">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/agisten.png"> 
+                                Clotrimazole (VAG CRM)
+                            </div>
+                            <div class="shelfMedPicContainer Clotrimazole-CRM">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/clotrimaderm.png"> 
+                                Clotrimazole (CRM)
+                            </div>
+                            <div class="shelfMedPicContainer Clotrimazole-Neomycin-Dexamethasone">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/polycutan-tevacutan.png"> 
+                                Clotrimazole + Neomycin + Dexamethasone (CRM)
+                            </div>
+                            <div class="shelfMedPicContainer Undeceonic-Acid">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/fungmon.png"> 
+                                Undeceonic Acid
+                            </div>
+                        </div>
+                    </div>
+                       <!-- מדף 4 -->
+                    <div class="shelfs shelf4">
+                        <div class="shelfHedline">
+                           Other
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf4dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Sulfamethoxazole-Trimethoprim">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/diseptyl.png"> 
+                                Sulfamethoxazole + Trimethoprim 
+                            </div>
+                            <div class="shelfMedPicContainer Mupirocin">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/bactroban.png"> 
+                                Mupirocin
+                            </div>
+                            <div class="shelfMedPicContainer Chloramphenicol">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/synthomycine5.png"> 
+                                Chloramphenicol 
+                            </div>
+                            <div class="shelfMedPicContainer Gentamycin">
+                                <img class="shelfMedPic" src="../assets/images/antibiotics/lacromycin.png"> 
+                                Gentamycin  Eye drops 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- נשימה -->
+                <div class="breathingShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/breathing-symbol.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            Dilation of airways
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div>Muscle relaxation in the wall of the trachea and bronchi which leads to their expansion.<br> 
+                            In addition, some medications have a drying effect and reduce secretions in the respiratory tract, such as Aerovent.                           
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Salbutamol-Albuterol">
+                                <img class="shelfMedPic" src="../assets/images/breathing/ventolin-inhaler.png"> 
+                                Salbutamol / Albuterol
+                            </div>
+                            <div class="shelfMedPicContainer Ipratropium-Bromide">
+                                <img class="shelfMedPic" src="../assets/images/breathing/aerovent.png"> 
+                                Ipratropium Bromide 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 2 -->
+                    <div class="shelfs shelf2">
+                        <div class="shelfHedline">
+                            Suppression of respiratory inflammation 
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf2dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div>?What are Steroids<br>
+                            Hormones that are secreted from the adrenal gland and play many roles in the body such as: blood pressure balance, sugar level balance and more..<br>
+                            In addition, steroids suppress the activity of the immune system.<br>
+                            <span class="bold">?In what situations are steroid drugs given</span>
+                            Allergic reactions, inflammatory diseases, hormonal deficiencies and more...                                                                   
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Budesonide">
+                                <img class="shelfMedPic" src="../assets/images/breathing/budecort.png"> 
+                                Budesonide
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- מדף 3 -->
+                    <div class="shelfs shelf3">
+                        <div class="shelfHedline">
+                            Other
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf3dropDown shelfsdropDown hidden">
+                         <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Bromhexine">
+                                <img class="shelfMedPic" src="../assets/images/breathing/mokes.png"> 
+                                Bromhexine
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- תרופות אחרות -->
+                <div class="otherMedsShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/other-meds-button.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            Other medicines
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Petroleum-Gel">
+                                <img class="shelfMedPic" src="../assets/images/other-meds/vaseline.png"> 
+                                Petroleum Gel
+                            </div>
+                            <div class="shelfMedPicContainer Zinc-Oxide-Iron-Oxide">
+                                <img class="shelfMedPic" src="../assets/images/other-meds/calamine.png"> 
+                                Zinc Oxide + Iron Oxide 
+                            </div>
+                            <div class="shelfMedPicContainer Benzocaine-Salicylic-Acid">
+                                <img class="shelfMedPic" src="../assets/images/other-meds/noxacorn-liquiod.png"> 
+                                Benzocaine + Salicylic Acid
+                            </div>
+                            <div class="shelfMedPicContainer Cetomacrogol-CRM">
+                                <img class="shelfMedPic" src="../assets/images/other-meds/cetomag.png"> 
+                                Cetomacrogol (CRM)
+                            </div>
+                            <div class="shelfMedPicContainer Benzoyl-Peroxide-Gel">
+                                <img class="shelfMedPic" src="../assets/images/other-meds/benzac.png"> 
+                                (Gel)Benzoyl Peroxide 
+                            </div>
+                            <div class="shelfMedPicContainer Tertinoin-CRM">
+                                <img class="shelfMedPic" src="../assets/images/other-meds/retavit.png"> 
+                                Tertinoin (CRM)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- מחלות כרוניות -->
+                <div class="chronicDiseasesShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/chronic-diseases-button.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            
+                    Hypertension
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action</div>
+                        <div>"Diuretic" drugs - drugs that increase the excretion of water and salts in the urine → reduction of blood volume → decrease in blood pressure.<br>
+                            Medicines that slow down the heart rate and/or weaken the heartbeat → decrease in cardiac output → decrease in blood pressure.<br>
+                            Medicines that dilate blood vessels (relax muscle in the blood vessel walls) → reduced resistance in the blood vessels → decrease in blood pressure.<br>                  
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Amlodipine">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/norvasc.png"> 
+                                Amlodipine
+                            </div>
+                            <div class="shelfMedPicContainer Enalapril">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/enaladex20.png"> 
+                                Enalapril
+                            </div>
+                            <div class="shelfMedPicContainer Hydrochlorothiazide">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/disothiazide.png"> 
+                                Hydrochlo- rothiazide
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 2 -->
+                    <div class="shelfs shelf2">
+                        <div class="shelfHedline">
+                            Excess blood lipids (hyperlipidemia)  
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf2dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div>Reducing cholesterol production (cholesterol production takes place in the liver).<br>
+                            Increasing the entry of fats from the blood into the cells and their utilization for energy production.<br> 
+                            Reducing the absorption of cholesterol from the intestines into the blood.<br>                                                                                  
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Simvastatin">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/simvastatin.png"> 
+                                Simvastatin
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 3 -->
+                    <div class="shelfs shelf3">
+                        <div class="shelfHedline">
+                            
+                            Anemia
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf3dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Ferrous-Calcium-Citrate ">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/ferrocal.png"> 
+                                Ferrous Calcium Citrate 
+                            </div>
+                            <div class="shelfMedPicContainer Folic-Acid-VitaminB9">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/polic-acid.png"> 
+                                Folic Acid (Vitamin B9)
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 4 -->
+                    <div class="shelfs shelf4">
+                        <div class="shelfHedline">
+                           
+                        Blood dilution
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf4dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Acetylsalicylic-Acid">
+                                <img class="shelfMedPic" src="../assets/images/chronic-diseases/aspirin-cardio.png"> 
+                                Acetylsalicylic Acid 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- עיכול -->
+                <div class="digestionShelf medShelf hidden">
+                    <img class="medTypeSymbol" src="../assets/images/grapics/home-page/digestion-button.svg">
+                    <!-- מדף 1 -->
+                    <div class="shelfs shelf1">
+                        <div class="shelfHedline">
+                            
+                        Antacids 
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf1dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Omeprazole">
+                                <img class="shelfMedPic" src="../assets/images/digestion/omepradex.png"> 
+                                Omeprazole
+                            </div>
+                            <div class="shelfMedPicContainer Calcium-Magnesium-Carbonate">
+                                <img class="shelfMedPic" src="../assets/images/digestion/rennie.png"> 
+                                Calcium + Magnesium Carbonate
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 2 -->
+                    <div class="shelfs shelf2">
+                        <div class="shelfHedline">
+                            Antiemetics   
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf2dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action </div>
+                        <div> Speeding up stomach emptying by increasing motility.<br> 
+                            Increased contraction of the lower valve in the esophagus (between the esophagus and the stomach).<br>
+                            Blocking "receptors in the vomiting center" in the brain (receptors that are activated by substances such as dopamine and cause nausea and vomiting).<br>                                                                                                             
+                        </div>
+                        <div class="shelfPicSection">
+                            <div class="shelfMedPicContainer Metoclopramide">
+                                <img class="shelfMedPic" src="../assets/images/digestion/pramin.png"> 
+                                Metoclopramide
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 3 -->
+                    <div class="shelfs shelf3">
+                        <div class="shelfHedline">
+                            Laxatives  
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf3dropDown shelfsdropDown hidden">
+                        <div class="sub-titles">Mechanism of action  </div>
+                        <div>Acceleration of gastric emptying of the lower digestive system.<br> 
+                            Absorption of liquids into the large intestine and softening of the stomach contents.<br>                                                                                                                                          
+                        </div>
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Bisacodyl">
+                                <img class="shelfMedPic" src="../assets/images/digestion/laxadin.png"> 
+                                Bisacodyl
+                            </div>
+                            <div class="shelfMedPicContainer Sodium-Phoshate-PR">
+                                <img class="shelfMedPic" src="../assets/images/digestion/fleet.png"> 
+                                Sodium Phoshate (PR)
+                            </div>
+                            <div class="shelfMedPicContainer Parrafin">
+                                <img class="shelfMedPic" src="../assets/images/digestion/liquid-parafin.png"> 
+                                Parrafin
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 4 -->
+                    <div class="shelfs shelf4">
+                        <div class="shelfHedline">
+                            Antidiarrheal
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf4dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Loperamide">
+                                <img class="shelfMedPic" src="../assets/images/digestion/imodiom.png"> 
+                                Loperamide 
+                            </div>
+                        </div>
+                    </div>
+                    <!-- מדף 5 -->
+                    <div class="shelfs shelf5">
+                        <div class="shelfHedline">
+                            Other
+                            <img class="downButton blue" src="../assets/images/grapics/med-shelfs/down-button.svg">
+                        </div>
+                        <img class="shelf blue" src="../assets/images/grapics/med-shelfs/shelf.svg">
+                    </div>
+                    <div class="shelf5dropDown shelfsdropDown hidden">
+                        <div class="shelfPicSection ">
+                            <div class="shelfMedPicContainer Papaverine">
+                                <img class="shelfMedPic" src="../assets/images/digestion/stopit.png"> 
+                                Papaverine 
+                            </div>
+                            <div class="shelfMedPicContainer Benzocaine-Bismuth-Zinc">
+                                <img class="shelfMedPic" src="../assets/images/digestion/rectozoirn.png"> 
+                                Benzocaine + Bismuth + Zinc 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shelfsButtons hidden">
+                <img class="homeButton" src="../assets/images/grapics/med-shelfs/home-button.svg">
+                <img class="practiceButton buttons" src="../assets/images/grapics/med-shelfs/practice-button.svg">
+            </div>
+            <!-- medicine id -->
+            <div class="medicineId">
+            </div>
+            <template class="withoutMechanism">
+                <div class="title"></div>
+                <img class="pic" src="" alt="תמונה של תרופה"/>
+                <div class="idNextToPic">
+                    <div class="sub-titles">Generic Name</div>
+                    <div class="genericName"></div>
+                    <div class="sub-titles">Commercial Name </div>
+                    <div class="content commercialName"></div>
+                </div>
+                <div class="sub-titles">indications</div>
+                <div class="content indication"></div>
+                <div class="sub-titles"> Contraindications</div>
+                <div class="content contraindication"></div>
+                <div class="sub-titles">Side Effects</div>
+                <div class="content sideEffect"></div>
+                <div class="sub-titles">Patient instructions</div>
+                <div class="content patientGuidelines"></div>
+            </template>
+            <template class="withMechanism">
+                <div class="title"></div>
+                <img class="pic" src="" alt="תמונה של תרופה"/>
+                <div class="idNextToPic">
+                    <div class="sub-titles">Generic Name </div>
+                    <div class="genericName"></div>
+                    <div class="sub-titles">Commercial Name</div>
+                    <div class="content commercialName"></div>
+                </div>
+                <div class="sub-titles">indications</div>
+                <div class="content indication"></div>
+                <div class="sub-titles"> Contraindications</div>
+                <div class="content contraindication"></div>
+                <div class="sub-titles">Main Side Effects</div>
+                <div class="content sideEffect"></div>
+                <div class="sub-titles"> Patient instructions</div>
+                <div class="content patientGuidelines"></div>
+                <div class="sub-titles"> Mechanism of action</div>
+                <div class="content mechanismOfAction"></div>
+            </template>
+            <!-- practice -->
+            <div class="practicePage hidden">
+                <div class="prcticeQuestionContainer">
+                    <img class="practiceCharacter" src="../assets/images/grapics/practice/character.svg">
+                    <img class="practiceQuestionBobble" src="../assets/images/grapics/practice/speach-bobble.svg">
+                    <div class="question">A question about a medicine</div>
+                    <div class="answersContainer">
+                        <div class="ans ans1">
+                            <img class="practiceQuestionSqure practiceQuestionSqure1" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                            <div>Some answer</div>
+                        </div>
+                        <div class="ans ans2">
+                            <img class="practiceQuestionSqure practiceQuestionSqure2" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                            <div>A question</div>
+                        </div>
+                        <div class="ans ans3">
+                            <img class="practiceQuestionSqure practiceQuestionSqure3" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                            <div>An answer</div>
+                        </div>
+                        <div class="ans ans4">
+                            <img class="practiceQuestionSqure practiceQuestionSqure4" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                            <div>An answer</div>
+                        </div>
+                    </div>
+                </div>
+                <img class="practiceBottomButton" src="../assets/images/grapics/practice/check_button.svg" alt="check">
+                <div class="practiceRightAnswersConteiner hidden">
+                     <span class="practiceRightAnswers"></span>
+                     Correct Answers
+                </div>
+            </div>
+            <!-- exam -->
+            <div class="examPage hidden">
+                <div class="beforeExamPage hidden">
+                    <div class="beforeExamInstractions">You will now pass a test on the material you learned, the test has a grade so make sure you feel ready. The test contains 15 multiple choice questions</div>
+                    <img class="examCharacter" src="../assets/images/grapics/practice/character.svg">
+                    <div class="beforeExamBobble">Before we start the test, I should know your name. Enter your full name in the box below and click the button to start the test</div>
+                    <input class="examNameInput"  android:windowSoftInputMode="stateVisible" placeholder="Enter your full name" name="name" lang="he" type="text" />
+                    <div class="beforeTestButtonsContainer">
+                        <img class="stratTest beforeTestButtons" src="../assets/images/grapics/test/start-test-button.svg">
+                    </div>   
+                </div>
+                <div class="examQuestionContainer hidden">
+                    <div class="testCurrentQuestionDisplay"></div>
+                    <div class="questionContainer">
+                        <div class="question">A question</div>
+                        <div class="multiple answersContainer answersContainers hidden">
+                            <div class="ans ans1">
+                                <img class="practiceQuestionSqure examQuestionSqure1 blue" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                                <div>An answer</div>
+                            </div>
+                            <div class="ans ans2">
+                                <img class="practiceQuestionSqure examQuestionSqure2 blue" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                                <div>A question</div>
+                            </div>
+                            <div class="ans ans3">
+                                <img class="practiceQuestionSqure examQuestionSqure3 blue" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                                <div>An answer</div>
+                            </div>
+                            <div class="ans ans4">
+                                <img class="practiceQuestionSqure examQuestionSqure4 blue" src="../assets/images/grapics/practice/answer-squre-unmarked.svg">
+                                <div>An answer</div>
+                            </div>
+                        </div>
+                        <div class="binary answersContainers hidden">
+                            <div class="ans true">
+                                <img class="binaryMarks" src="../assets/images/grapics/test/check-mark.svg">
+                                <div>Correct</div>
+                            </div>
+                            <div class="ans false">
+                                <img class="binaryMarks" src="../assets/images/grapics/test/x-mark.svg">
+                                <div> wrong</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="answerTracker">
+                        <div class="answerPill answerPill1">1</div>
+                        <div class="answerPill answerPill2">2</div>
+                        <div class="answerPill answerPill3">3</div>
+                        <div class="answerPill answerPill4">4</div>
+                        <div class="answerPill answerPill5">5</div>
+                        <div class="answerPill answerPill6">6</div>
+                        <div class="answerPill answerPill7">7</div>
+                        <div class="answerPill answerPill8">8</div>
+                        <div class="answerPill answerPill9">9</div>
+                        <div class="answerPill answerPill10">10</div>
+                        <div class="answerPill answerPill11">11</div>
+                        <div class="answerPill answerPill12">12</div>
+                        <div class="answerPill answerPill13">13</div>
+                        <div class="answerPill answerPill14">14</div>
+                        <div class="answerPill answerPill15">15</div>
+                    </div>
+                    <img class="examSubmit gray" src="../assets/images/grapics/test/submit-button.svg" alt="check">
+                    <div class="testArrows">
+                        <img class="testArrow testArrowRight blue" src="../assets/images/grapics/home-page/left-arrow.svg" alt="arrow">
+                        <img class="testArrow testArrowLeft blue" src="../assets/images/grapics/home-page/right-arrow.svg" alt="arrow">
+                    </div>
+                </div>
+                <div class="examSubmitionPopUp darkScreen hidden">
+                    <div class="popUpContainer">
+                        <div>After submitting you will not be able to return to the test<br> ?Are you sure you want to submit</div>
+                        <div>
+                            <img class="popUpBackToExam popUpButtons" src="../assets/images/grapics/test/back-to-test-button.svg">
+                            <img class="popUpSubmit popUpButtons" src="../assets/images/grapics/test/submit-button-popup.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="afterExamPage hidden">
+                    <div class="examVerbalGrade">Well done </div>
+                    <div class="userNameBig"></div>
+                    <div class="ExamgradeConteiner">Grade:
+                        <span class="ExamgradeBig"></span>
+                    </div>
+                    <div class="rightAnswersConteiner">
+                        <span class="rightAnswers"></span>
+                        Correct answers
+                    </div>
+                    <div class="timerConteiner"></div>
+                    <div class="afterExamData">
+                        <span class="userNameSmall"></span>|
+                        <span class="ExamgradeSmall"></span>|
+                        <span class="date"></span>|
+                        <span class="time"></span>
+                    </div>
+                    <div>
+                        <img class="reviewTest afterExamButtons" src="../assets/images/grapics/test/review-test-button.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
